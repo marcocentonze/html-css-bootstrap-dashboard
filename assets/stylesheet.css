@@ -29,7 +29,9 @@ body {
     --light-purple: #9792e4;
   }
 
-
+.pad-left-5px{
+  padding-left:5px;
+}
 
   /* header */
   .img_max{
@@ -45,10 +47,36 @@ body {
 
 .left_sidebar{
   height: calc(100vh - 80px);
+  width:70px;
   background-image: url(../assets/img/sidebar-bg.png);
   margin: 0;
   background-color:#13293F;
 }
 
 
+/* /sidebar */
+
+/* main */
+#display_page{
+  height: calc(100vh - 70px);
+  overflow: auto;
+}
+
+#banner{
+ width: calc(100vw - 70px);
+}
+
   
+
+@media (min-width: 992px) {
+
+  .left_sidebar{
+      width: 150px;
+     
+  }
+
+  #banner{
+      width: calc(100vw - 150px);
+  }
+  
+} 
