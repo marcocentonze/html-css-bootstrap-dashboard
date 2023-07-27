@@ -1,0 +1,19 @@
+/* GENERAL */
+
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+
+
+  /* header */
+  .img_max{
+    max-width: 100%;
+  }
+  
+  .header{
+    height: 80px;
+  }
+
+  
