@@ -65,6 +65,9 @@ body {
 #banner{
  width: calc(100vw - 70px);
 }
+.btn-banner-custom{
+  background-color:  #165abb;
+}
 
   
 
@@ -78,5 +81,6 @@ body {
   #banner{
       width: calc(100vw - 150px);
   }
+  
   
 } 
