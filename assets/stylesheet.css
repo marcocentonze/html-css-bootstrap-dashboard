@@ -96,11 +96,7 @@ body {
 }
 
 
-
- 
-  
-
-@media and (min-width: 992px) {
+@media (min-width: 992px) {
 
   .left_sidebar{
       width: 150px;
