@@ -77,7 +77,9 @@
         </div>
     </div>
 </header>
+<!--/ header-->
 
+<div class="wrapper">
 <!--sidebar-->
 <div class="d-flex">
     <div
@@ -143,7 +145,7 @@
                 <div class="order-md-1 me-md-5 mb-3">
                     Nuovo Studente
                     <a class="btn btn-outline-light ms-3" data-bs-toggle="offcanvas" href="#offcanvas" role="button" aria-controls="offcanvas"><i class="fa-solid fa-plus"></i></a>                          
-                    <div class="offcanvas offcanvas-end offcanvas_width" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel"><!--cambiare width offcanvas-->
 
                         <!-- Offcanvas Header -->
                         <div class="offcanvas-header">
@@ -637,12 +639,110 @@
 
         <!--faq-->
         <section>
+          
+            <div class="col-12 mt-3 px-3">
+                <div class="card">
+                    <div
+                        class="card-header bg-light fs-3 fw-bold">F.A.Q.</div>
+                    <!-- /.card-title -->
+                    <div class="card-body">
+
+                        <div
+                            class="accordion accordion-flush">
+
+                            <div class="accordion-item">
+                                <h2
+                                    class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseOne">
+                                        Come
+                                        aggiungere
+                                        un nuovo
+                                        studente?
+                                    </button>
+                                </h2>
+                                <div id="collapseOne"
+                                    class="accordion-collapse collapse">
+                                    <div
+                                        class="accordion-body">
+                                        Clicca sul + in
+                                        alto nella
+                                        sezione blu.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2
+                                    class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseTwo">
+                                        Come
+                                        posso
+                                        accedere
+                                        alle
+                                        informazioni
+                                        del mio
+                                        account?
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo"
+                                    class="accordion-collapse collapse">
+                                    <div
+                                        class="accordion-body">
+                                        Clicca sulla
+                                        campanellina
+                                        gialla in alto a
+                                        destra e premi
+                                        su profilo.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2
+                                    class="accordion-header">
+                                    <button
+                                        class="accordion-button collapsed"
+                                        data-bs-toggle="collapse"
+                                        data-bs-target="#collapseThree">
+                                        Posso
+                                        usare questa
+                                        dashboard da
+                                        mobile?
+                                    </button>
+                                </h2>
+                                <div id="collapseThree"
+                                    class="accordion-collapse collapse">
+                                    <div
+                                        class="accordion-body">
+                                        Si, è possibile.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+            </div>
+            <!-- /.col-12 -->
+        </div>
+        <!-- /.row -->
+    </div>
 
         </section>
         <!--/faq-->
 
         <!--todo-->
         <section>
+
+          
 
         </section>
         <!--/todo-->
@@ -657,6 +757,7 @@
 
 
     </main>
+</div>
 
 
 
