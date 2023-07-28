@@ -46,9 +46,9 @@ body {
 /* side bar */
 
 .left_sidebar{
-  height: calc(100vh - 80px);
+  height: calc(200vh - 80px); /* cambiata da 100vh a 200 perchè era troppo corta */
   width:70px;
-  background-image: url(../assets/img/sidebar-bg.png);
+  background-image: url(../assets/img/sidebar-bg.png); 
   margin: 0;
   background-color:#13293F;
 }
@@ -68,7 +68,11 @@ body {
 .btn-banner-custom{
   background-color:  #165abb;
 }
+/* next classes */
 
+
+
+ 
   
 
 @media (min-width: 992px) {
